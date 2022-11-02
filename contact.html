@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="bootstrap-4/css/bootstrap.min.css">
+</head>
+<body>
+<header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+          <a class="navbar-brand" href="index.html"> The Life Changer</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav move-item">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li cRlass="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="target.html">Target</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="team.html">Team</a>
+              </li>
+              <li class="nav-item">
+                <!-- <a class="nav-link " href="signup.html">Register</a> -->
+                    <!-- Button to Open the Modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mySign">
+                      Sign Up
+                    </button>
+
+                </li>
+                <li class="nav-item">
+                  <!-- <a class="nav-link " href="login.html">Login</a> -->
+                          <!-- Button to Open the Modal -->
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myLogin">
+                    Login
+                  </button>
+
+                </li>
+            </ul>
+          </div>
+      </nav>
+</header>
+<footer>
+  <!-- <img src="pk.jpg" alt="" srcset=""> -->
+  <div class="footer-img">
+      <div class="footer-txt">
+        <div class="container-footer">
+          <div class="from-info">
+              <h3>Phone</h3>
+              <p>+23407069449467</p>
+              <h3>Address</h3>
+              <p>12345 OLD BUKURU ROAD PLATEAU STATE JOS, NIGERIA</p>
+              <h3>Email</h3>
+              <p>lifechanger@gmail.com</p>
+          </div>
+          <div class="form">
+              <form action="">
+                <h3 class="h3-drop">Drop Us A Line </h3>
+                <input type="text" name="" placeholder="Name">
+                <input type="text" name="" placeholder="Email">
+                <input type="text" name="" placeholder="Subject"><br>
+                <textarea placeholder="Message"></textarea> 
+              <button class="btnb" type="submit">Send</button>
+
+              </form>
+          </div>
+        </div>
+    </div>
+  </div>
+</footer>
+    
+    <!-- The Modal -->
+    <div class="modal" id="mySign">
+      <div class="modal-dialog">
+        <div class="modal-content">
+    
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Sign Up</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+    
+            <!-- Modal body -->
+            <div class="container mt-5">
+                <form action="index.html" style="width: 400px; margin: auto">
+                  <div class="row">
+                          <div class="col">
+                            <div class="form-group">
+                              <label for="exampleInputFirstName">First Name</label>
+                              <input type="text" name="txr" class="form-control" id="exampleInputFirstName" aria-describedby="emailHelp">
+                            </div>
+                          </div>
+                      <div class="col">
+                          <div class="form-group">
+                              <label for="exampleInputLastName">Last Name</label>
+                              <input type="text" class="form-control" id="exampleInputLastName" aria-describedby="emailHelp">
+                            </div>
+                      </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputConfirmPassword">Confirm Password</label>
+                    <input type="password" class="form-control" id="exampleInputConfirmPassword">
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+    
+        </div>
+      </div>
+    </div>
+
+
+<!-- The Modal -->
+<div class="modal" id="myLogin">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Login</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="container mt-5">
+        <form style="width: 400px; margin: auto">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+      </div>
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+    
+  <script src="bootstrap-4/js/jquery.js"></script>
+  <script src="bootstrap-4/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+</body>
+</html>

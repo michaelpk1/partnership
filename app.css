@@ -1,0 +1,129 @@
+body{
+    padding: 0;
+    margin: 0;
+
+}
+
+.move-item{
+    position: relative;
+    right: -20%;
+}
+
+ img{
+    background-image: url(headerpk.jpeg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.footer-img{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(./pk.jpg);
+    height: 70vh;
+    background-size: cover;
+    position: relative;
+}
+
+.footer-txt{
+    position: absolute;
+    top: 20%;
+}
+.p-form{
+    text-align: center;
+}
+.p-forms{
+    margin: 15px;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+}
+::first-letter p{
+    color: black ;
+}
+.grid-container{
+    text-transform: capitalize;
+}
+
+
+.marquee{
+    background-color:white;
+    color:red;
+    font-size: 2rem;
+    
+}
+.container-footer{
+    display: flex;
+    /* margin-right: 14px; */
+    flex: wrap;
+    width: 75%;
+    margin: auto;
+    position: relative;
+}
+.from-info{
+    width: 50%;
+    color: white;
+}
+
+input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 30px;
+    border-bottom: 4px solid white;
+    background-color: transparent;
+    width: 30%;
+
+}
+
+textarea{
+    width: 92%;
+    border-bottom: 4px solid white;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+}
+.btnb{
+    border: none;
+    background-color: blue;
+    color: white;
+    margin-top: 25px;
+    border-radius: 12px;
+    width: 20%;
+    padding: 5px;
+}
+ input,textarea:focus{
+    outline: none;
+ }
+ textarea::placeholder{
+    color:black;
+ }
+ input::placeholder{
+    color: black;
+    
+ }
+ .team-column{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:20px;
+ }
+/* .column-team div img{
+    min-width: 100%;
+    height: 400px;
+} */
+.column-team div p,h3{
+    text-align: center;
+}
+.from-heading{
+    text-align: left;
+}
+.h3-drop{
+    color: white;
+}
+.a-email{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+    
+
+ 
